@@ -42,6 +42,10 @@ const manifest = {
       matches: ['http://*/*', 'https://*/*', '<all_urls>'],
       js: ['src/pages/contentUI/index.js'],
     },
+    {
+      matches: ['https://app.site123.com/*'],
+      js: ['src/pages/contentArticleEditor/index.js'],
+    },
   ],
   devtools_page: 'src/pages/devtools/index.html',
   web_accessible_resources: [
