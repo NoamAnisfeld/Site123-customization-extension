@@ -54,6 +54,7 @@ export default defineConfig({
       input: {
         devtools: resolve(pagesDir, 'devtools', 'index.html'),
         panel: resolve(pagesDir, 'panel', 'index.html'),
+        contentActiveTabTracker: resolve(pagesDir, 'content', 'activeTabTracker', 'index.ts'),
         contentArticleEditor: resolve(pagesDir, 'content', 'articleEditor', 'index.ts'),
         background: resolve(pagesDir, 'background', 'index.ts'),
         contentStyle: resolve(pagesDir, 'content', 'style.scss'),

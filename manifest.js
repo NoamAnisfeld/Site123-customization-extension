@@ -33,6 +33,10 @@ const manifest = {
   },
   content_scripts: [
     {
+      matches: ['http://*/*', 'https://*/*', '<all_urls>'],
+      js: ['src/pages/contentActiveTabTracker/index.js'],
+    },
+    {
       matches: ['https://app.site123.com/*'],
       js: ['src/pages/contentArticleEditor/index.js'],
     },
