@@ -19,7 +19,6 @@ const manifest = {
   side_panel: {
     default_path: 'src/pages/sidepanel/index.html',
   },
-  options_page: 'src/pages/options/index.html',
   background: {
     service_worker: 'src/pages/background/index.js',
     type: 'module',
@@ -41,7 +40,6 @@ const manifest = {
       js: ['src/pages/contentArticleEditor/index.js'],
     },
   ],
-  devtools_page: 'src/pages/devtools/index.html',
   web_accessible_resources: [
     {
       resources: ['assets/js/*.js', 'assets/css/*.css', 'icon-128.png', 'icon-34.png'],
